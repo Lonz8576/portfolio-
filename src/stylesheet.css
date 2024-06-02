@@ -1,0 +1,47 @@
+.main-content{
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-link{
+    color:#1c7293;
+    font-family: "Old Standard TT", serif;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.nav-link :hover{
+    transform:  scale(1.25, 1.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          );
+          color: white;
+          background-position: center 100px;
+          margin-left: 300px;
+          margin-right: 300px;
+          border-radius: 30px;
+}
+.footer :hover {
+    color: #1c7293;
+}
+
+.footer a{
+    color: #b9e3c6;
+}

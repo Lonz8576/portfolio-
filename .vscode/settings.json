@@ -1,0 +1,10 @@
+{
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "editor.suggest.preview": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggestSelection": "recentlyUsed"
+}
