@@ -28,27 +28,75 @@
 .opening-box{
     display: flex;
     justify-content: center;
+     margin-bottom: 80px;
+
 }
 #main-box{
     background-color: var(--primary-dark);
-    color: white;
+    color: var(--primary-light);
     border: 2px groove white;
     box-shadow: -9px 8px 8px rgba(31, 30, 30, 0.2);
-
 }
 #opening-name{
     padding-bottom: 20px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
 }
 #badge-name{
     background-color: #3b94a4;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
     color: var(--primary-light);
     margin-top: 10px;
     padding: 15px;
+    color: white;
     box-shadow: -5px 5px 8px rgba(202, 201, 201, 0.2);
 }
 .Typewriter_cursor{
     color: rgba(255, 255, 240, 0);
 }
+.card-text{
+    font-family:"Mate", serif;;
+}
+
+
+.container-2{
+    color: white;
+}
+.move{
+   background-color: var(--primary-dark);
+   margin-top:60px;
+   display: block;
+   border-radius: 40px;
+   box-shadow: 0px 0px 63px 35px rgba(32, 34, 39, 0.384);
+}
+#about-me{
+     padding:20px;
+     transform: rotate(-90deg);
+     font-family: "Fredericka the Great", serif;
+     letter-spacing: 1px;
+}
+.char{
+     font-size: 32px;
+     animation: an 3s ease-out 3 both;
+     display: inline-block;
+}
+    @keyframes an{
+        from{
+      opacity: 0;
+      transform: perspective(500px) translate3d(-100px, -90px, -20px) rotate3d(1, -1, 0, 95deg);
+     }
+     to
+     {
+      opacity: 2;
+      transform: perspective(500px) translate3d(0, 0, 0);
+}
+ }
+ .about-content{
+    font-family: "Mate", serif;
+    font-size: 18px;
+ }
 
 
 
@@ -56,15 +104,21 @@
 
 
 
-
-
+.great-img{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.something-great{
+    max-width: 768px;
+    border-radius: 30px;
+}
 
 
 .footer{
     text-align: center;
     font-size: 16px;
-    font-family: "Unkempt", cursive;
-    font-weight: 700;
+    font-family: "Mate", serif;
+    font-weight: 500;
     letter-spacing: 2px;
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.8),
@@ -87,13 +141,11 @@
 }
 
 .light-theme {
-  /* Set color properties for the light theme */
   background-color: #ffffff;
   color: #000000;
 }
 
 .dark-theme {
-  /* Set color properties for the dark theme */
   background-color: #222222;
   color: #ffffff;
 }
