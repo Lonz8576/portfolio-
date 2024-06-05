@@ -68,7 +68,9 @@
    background-color: var(--primary-dark);
    margin-top:60px;
    display: block;
+   margin-right: 20px;
    border-radius: 40px;
+   margin-top: 80px;
    box-shadow: 0px 0px 63px 35px rgba(32, 34, 39, 0.384);
 }
 #about-me{
@@ -99,6 +101,7 @@
     font-weight: 600;
     letter-spacing: 2px;
 
+
  }
  .tools{
     font-size: 42px;
@@ -109,7 +112,7 @@
     color:white;
     text-decoration: underline;
     text-underline-offset: 5px;
-    margin-top: 70px;
+
  }
 .wordCarousel {
     font-size: 42px;
@@ -117,8 +120,9 @@
     font-weight: 100;
     color: var(--primary-dark);
     border-radius: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
+
+
+
 
     div {
         overflow: hidden;
@@ -245,20 +249,19 @@
             rgba(0, 0, 0, 0.8)
           );
           color: #b9e3c6;
-          background-position: center 100px;
+          background-position: center 200px;
           margin-left: 300px;
           margin-right: 300px;
           border-radius: 30px;
-
+          margin-top: 40px;
 }
-.footer :hover {
-    color: white;
-    transform:  scale(1.25, 1.25);
-}
-
 .footer a{
     color: #b9e3c6;
     text-decoration: none;
+}
+.footer :hover {
+    color: white;
+
 }
 @media screen and (max-width: 500px) {
   .footer {
