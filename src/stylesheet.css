@@ -248,6 +248,7 @@
           margin-left: 300px;
           margin-right: 300px;
           border-radius: 30px;
+
 }
 .footer :hover {
     color: white;
@@ -257,6 +258,11 @@
 .footer a{
     color: #b9e3c6;
     text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    width: 400px;
+  }
 }
 
 .light-theme {
