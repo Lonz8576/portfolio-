@@ -2,8 +2,10 @@
     --primary-dark:  #272932;
     --primary-light:  #b9e3c6;
 }
-
-.main-content{
+.container-md{
+    width: 100%;
+}
+.container-md{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,8 +61,6 @@
 .card-text{
     font-family:"Mate", serif;;
 }
-
-
 .container-2{
     color: white;
 }
@@ -97,6 +97,123 @@
     font-family: "Mate", serif;
     font-size: 18px;
  }
+ .tools{
+    font-size: 42px;
+    font-weight: 800;
+    font-family: "Fredericka the Great", serif;
+    letter-spacing: 3px;
+    color:white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+ }
+.wordCarousel {
+    font-size: 42px;
+    background-color: rgb(39, 41, 50, 0.7) ;
+    font-weight: 100;
+    color: var(--primary-dark);
+    border-radius: 20px;
+    div {
+        overflow: hidden;
+        position: relative;
+        float: none;
+        height: 85px;
+        padding-top: 30px;
+        margin-top: 60px;
+       padding-bottom: 20px;
+        li {
+            font-family: "Mate", serif;
+            color: #eee;
+            font-weight: 700;
+            height: 45px;
+            margin-bottom: 45px;
+            display: block;
+        }
+    }
+}
+.flip2 { animation: flip2 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip5 { animation: flip5 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip6 { animation: flip6 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip7 { animation: flip6 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -180px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -360px; }
+}
+
+@keyframes flip5 {
+    0% { margin-top: -450px; }
+    5% { margin-top: -360px; }
+    20% { margin-top: -360px; }
+    25% { margin-top: -270px; }
+    40% { margin-top: -270px; }
+    45% { margin-top: -180px; }
+    60% { margin-top: -180px; }
+    65% { margin-top: -90px; }
+    80% { margin-top: -90px; }
+    85% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -450px; }
+}
+@keyframes flip6 {
+    0% { margin-top: -450px; }
+    5% { margin-top: -360px; }
+    20% { margin-top: -360px; }
+    25% { margin-top: -270px; }
+    40% { margin-top: -270px; }
+    45% { margin-top: -180px; }
+    60% { margin-top: -180px; }
+    65% { margin-top: -90px; }
+    80% { margin-top: -90px; }
+    85% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -450px; }
+}
+@keyframes flip7 {
+    0% { margin-top: -450px; }
+    5% { margin-top: -360px; }
+    20% { margin-top: -360px; }
+    25% { margin-top: -270px; }
+    40% { margin-top: -270px; }
+    45% { margin-top: -180px; }
+    60% { margin-top: -180px; }
+    65% { margin-top: -90px; }
+    80% { margin-top: -90px; }
+    85% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -450px; }
+}
+
+
 
 
 
@@ -107,10 +224,12 @@
 .great-img{
     margin-top: 80px;
     margin-bottom: 80px;
+
 }
 .something-great{
-    max-width: 768px;
+    max-width: 500px;
     border-radius: 30px;
+    text-align: center;
 }
 
 

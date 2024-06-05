@@ -44,13 +44,16 @@
     </ul>
 </div>
 
-<div class="main-content">
+
+<div class="container-md">
+
+
 
 <div class="opening-box pt-5">
 <div class="card m-3" style="max-width: 690px;" id="main-box">
   <div class="row align-items-center g-0">
-    <div class="col-lg-4">
-      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/063/original/blonde-headshotsmall.jpg?1717359329" class="img-fluid rounded" alt="Nic headshot">
+    <div class="col-md-4">
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/063/original/blonde-headshotsmall.jpg?1717359329" class="img-fluid rounded" min-width="200px" alt="Nic headshot">
     </div>
     <div class="col-md-8">
       <div class="card-body ms-2">
@@ -83,36 +86,51 @@
           Check out some of my work in the Projects section.
             </span>
         </div>
-        <div class="col-3 col-md-5">
-            <ul class="list-group list-group-flush">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
-</div>
+
+            <div class="col-3 col-md-4 ms-5 text-center">
+ <h4 class="wordCarousel mt-4">
+    <span class="tools">Tools</span>
+    <div class="hidden-div">
+        <ul class="flip7">
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+            <li>SEO</li>
+            <li>Python</li>
+        </ul>
+    </div>
+</h4>
 
     </div>
-  </div>
+    </div>
+    </div>
+    </div>
+
+
 </div>
 
 
 <hr class="border border-dark border-2 mt-5">
 
 <div class="grid m-auto mt-5 col-12 d-md-flex justify-content-evenly">
-<a href="resume.html">  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/161/original/res-logo.png?1717472758" alt="resome-btn" class="res-btn" width="150px" /></a>
-  <a href="contact.html" ><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/160/original/contact-.png?1717472750"  class="con-btn" width="150px"/></a>
+<a href="/resume.html" target="_blank">  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/161/original/res-logo.png?1717472758" alt="resome-btn" class="res-btn" width="200px"  id="resume-btn"/></a>
+  <a href="/contact.html" target="_blank" ><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/160/original/contact-.png?1717472750"  class="con-btn" width="200px" id="contact-btn"/></a>
 
 </div>
-
-<div class="great-img img-fluid">
-   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/126/original/something-great-sm.jpg?1717438544" alt="something-great" class="something-great img-fluid" />
+<div class="row"></div>
+<div class="great-img col-12 text-center">
+   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/126/original/something-great-sm.jpg?1717438544" alt="something-great" class="something-great"/>
 </div>
-
-
 
 <hr class="border border-dark border-2 mb-5">
+
+<div class="grid text-center" style="--bs-columns: 6; --bs-gap: 5rem;">
+  <div class="col">.g-col-6</div>
+  <div class="col">.g-col-6</div>
+  <div class="col">.g-col-6</div>
+</div>
 
 
 
@@ -144,8 +162,10 @@
     <br/>
     Powered by <a href="https://nic-alonso-dev.netlify.app">Netlify</a>
 </footer>
+
 </div>
 </div>
+
 
     <script src="src/script.js"></script>
 </body>
