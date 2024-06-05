@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +19,8 @@
     <title>Nic Alonso Portfolio</title>
 </head>
 <body>
+
+
 <div class="container-xl">
     <div class="top-nav navbar bg-dark border-bottom border-body" data-bs-theme="dark">
      <a class="nav-logo p-2 mx-4" href="index.html" target="_blank">
@@ -40,7 +43,7 @@
     <a class="nav-link me-5" href="resume.html" target="_blank"><i class="fa-regular fa-file" style="color: #b9e3c6;"></i></a>
     </li>
     <li class="nav-btn">
-    <button class="btn btn-sm btn-outline-secondary mx-4" type="button" id="toggle-button"><i class="fa-regular fa-lightbulb" style="color: #1c7293;" title="Light Theme/Dark Theme"></i></button>
+   <a href="Dark.html"> <button class="btn btn-sm btn-outline-secondary mx-4" type="button" id="toggle-button"><i class="fa-regular fa-lightbulb" style="color: #1c7293;" title="Lights out"></i></button></a>
     </li>
     </ul>
 </div>
@@ -70,14 +73,14 @@
 
 <div class="container-2 text-center">
   <div class="row">
-    <div class="col-md-3" >
+    <div class="col-md-4 mt-5" >
         <div class="move" id="about-me">
        A little About me
       </div>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-8">
       <div class="row" id="about-me-row">
-        <div class="col-8 col-sm-6">
+        <div class="col col-sm-6">
             <span class="about-content">
           I'm a Frontend Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. I want to have the client satisfied
           + best UX 😊
@@ -88,8 +91,8 @@
             </span>
         </div>
 
-            <div class="col-3 col-md-4 ms-5 text-center">
- <h4 class="wordCarousel mt-4">
+            <div class="col-4 col-md-5 text-center">
+ <h4 class="wordCarousel mt-5">
     <span class="tools">Tools</span>
     <div class="hidden-div">
         <ul class="flip7">
@@ -113,7 +116,7 @@
 </div>
 
 
-<hr class="border border-dark border-2 mt-5">
+<hr class="border border-dark border-2 mt-4">
 
 <div class="grid m-auto mt-5 col-12 d-md-flex justify-content-evenly">
 <a href="/resume.html" target="_blank">  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/161/original/res-logo.png?1717472758" alt="resome-btn" class="res-btn" width="200px"  id="resume-btn"/></a>
@@ -140,12 +143,13 @@
 
 </div>
 
-
+<div class="container pb-4">
 <footer class="footer p-3">
      Made with 💚, my portfolio is open sourced on <a href="https://github.com/Lonz8576/portfolio-">GitHub</a>
     <br/>
     Powered by <a href="https://nic-alonso-dev.netlify.app">Netlify</a>
 </footer>
+</div>
 
 
 </div>

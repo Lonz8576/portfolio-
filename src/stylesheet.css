@@ -66,7 +66,7 @@
 }
 .move{
    background-color: var(--primary-dark);
-   margin-top:60px;
+   margin-top:90px;
    display: block;
    border-radius: 40px;
    box-shadow: 0px 0px 63px 35px rgba(32, 34, 39, 0.384);
@@ -96,6 +96,9 @@
  .about-content{
     font-family: "Mate", serif;
     font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
  }
  .tools{
     font-size: 42px;
@@ -105,6 +108,7 @@
     color:white;
     text-decoration: underline;
     text-underline-offset: 5px;
+    margin-top: 70px;
  }
 .wordCarousel {
     font-size: 42px;
@@ -214,13 +218,6 @@
 }
 
 
-
-
-
-
-
-
-
 .great-img{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -264,13 +261,128 @@
     width: 400px;
   }
 }
+.dark-message{
+    color:var(--primary-light);
+    text-align: center;
 
-.light-theme {
-  background-color: #ffffff;
-  color: #000000;
+
+}
+.lights-button{
+    font-size: 200px;
+}
+.container-fluid{
+    background-color: rgb(19, 18, 18);
+    width: 100%;
+    height: 100%;
+     overflow: hidden; /*FF fix*/
+  height: 100%;
+}
+  .body-dark{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #222;
+}
+.body-dark .on
+{
+background: radial-gradient(#555,#111);
+}
+.bulb
+{
+position: relative;
+width: 80px;
+height: 80px;
+background: #444;
+border-radius: 50%;
+z-index: 2;
+}
+.body-dark .bulb
+{
+background: #fff;
+box-shadow: 0 0 50px #fff,
+0 0 100px #fff,
+0 0 150px #fff,
+0 0 280px #fff,
+0 0 250px #fff,
+0 0 300px #fff,
+0 0 350px #fff;
+}
+.bulb span:nth-child(1)
+{
+position: absolute;
+top: -16px;
+left: -4px;
+display: block;
+width: 30px;
+height: 30px;
+background: transparent;
+transform: rotate(342deg);
+border-bottom-right-radius: 40px;
+box-shadow: 20px 20px 0 10px #444;
+}
+.body-dark .on .bulb span:nth-child(1)
+{
+box-shadow: 20px 20px 0 10px #fff;
+}
+.bulb span:nth-child(2)
+{
+position: absolute;
+top: -16px;
+right: -4px;
+display: block;
+width: 30px;
+height: 30px;
+background: transparent;
+transform: rotate(17deg);
+border-bottom-left-radius: 40px;
+box-shadow: -20px 20px 0 10px #444;
+}
+.body-dark.on .bulb span:nth-child(2)
+{
+box-shadow: -20px 20px 0 10px #fff;
+}
+.wire
+{
+position: absolute;
+left: calc(33% - 3px );
+bottom: 50%;
+width: 4px;
+height: 60vh;
+background: #000;
+z-index: 1;
+}
+.switch
+{
+position: relative;
+top: 20px;
+left: 200px;
+width: 80px;
+height: 80px;
+background: linear-gradient(#eee,#ccc,#eee);
+border: 3px solid #000;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.switch .btn
+{
+position: relative;
+width: 25px;
+height: 40px;
+background: linear-gradient(#777,#fff,#777);
+border-radius: 6px;
+border: 2px solid #000;
+cursor: pointer;
 }
 
-.dark-theme {
-  background-color: #222222;
-  color: #ffffff;
+.on .switch .btn::before
+{
+top: 15%;
 }
+
+
+
+
+
