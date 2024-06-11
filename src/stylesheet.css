@@ -5,6 +5,7 @@
 .container-md{
     width: 100%;
 }
+
 .container-md{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
     background-size: cover;
@@ -33,6 +34,7 @@
      margin-bottom: 80px;
 
 }
+
 #main-box{
     background-color: var(--primary-dark);
     color: var(--primary-light);
@@ -277,7 +279,7 @@
     margin: 0 auto;
 
 }
-
+/* lights out page */
 
 .dark-message{
     color:var(--primary-light);
@@ -288,6 +290,7 @@
 .lights-button{
     font-size: 200px;
 }
+
 .container-fluid{
     background-color: rgb(19, 18, 18);
     width: 100%;
@@ -400,6 +403,29 @@ cursor: pointer;
 top: 15%;
 }
 
+/* Projects */
+.project-header{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    font-family: 'Old Standard TT';
+    padding: 2.5rem;
+    margin-bottom: 2em;
+    color: var(--primary-light);
+}
+main{
+    background: var(--primary-dark);
+    background-size: cover;
+    height: 60vw;
+}
+p a{
+    color:var(--primary-light);
+}
+p{
+    word-spacing: 3px;
+    font-size: 18px;
+    font-family: 'Mate';
+}
 
 
 
