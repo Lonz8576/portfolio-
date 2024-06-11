@@ -410,13 +410,13 @@ top: 15%;
     text-underline-offset: 1rem;
     font-family: 'Old Standard TT';
     padding: 2.5rem;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: var(--primary-light);
 }
 main{
     background: var(--primary-dark);
     background-size: cover;
-    height: 60vw;
+    height: 65vw;
 }
 p a{
     color:var(--primary-light);
