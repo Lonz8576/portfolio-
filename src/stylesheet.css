@@ -2,6 +2,40 @@
     --primary-dark:  #272932;
     --primary-light:  #b9e3c6;
 }
+@media only screen and (max-width: 796px) {
+.footer{
+    position: relative;
+    top:3em;
+}
+.footer-back{
+    display: contents;
+    position: relative;
+}
+.footer-index{
+    padding-bottom: 4em;
+}
+#about-me{
+    display: none;
+}
+.carousel{
+    display:contents;
+    justify-content: center;
+}
+.wordCarousel{
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    right:2em;
+
+
+}
+.tools{
+    text-align: center;
+}
+
+}
+
 .container-md{
     width: 100%;
 }
@@ -68,11 +102,10 @@
 }
 .move{
    background-color: var(--primary-dark);
-   margin-top:60px;
    display: block;
    margin-right: 20px;
    border-radius: 40px;
-   margin-top: 80px;
+   margin-top: 30px;
    box-shadow: 0px 0px 63px 35px rgba(32, 34, 39, 0.384);
 }
 #about-me{
@@ -97,15 +130,7 @@
       transform: perspective(500px) translate3d(0, 0, 0);
 }
  }
- .about-content{
-    font-family: "Mate", serif;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 2px;
-
-
- }
- .tools{
+.tools{
     font-size: 42px;
     font-weight: 800;
     text-align: center;
@@ -122,8 +147,6 @@
     font-weight: 100;
     color: var(--primary-dark);
     border-radius: 20px;
-
-
 
 
     div {
@@ -246,30 +269,30 @@
     font-family: "Mate", serif;
     font-weight: 500;
     letter-spacing: 2px;
-    background-image: linear-gradient(
+          color: #b9e3c6;
+          margin: 0 auto;
+          margin-top: 20px;
+}
+.footer-back{
+     background-image: linear-gradient(
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.8)
           );
-          color: #b9e3c6;
-          background-position: center 200px;
-          margin-left: 300px;
-          margin-right: 300px;
           border-radius: 30px;
-          margin-top: 40px;
+          background-position: center 200px;
+          background-size: 400px;
+          margin-left: 200px;
+           margin-right: 200px;
 }
+
 .footer a{
     color: #b9e3c6;
     text-decoration: none;
 }
 .footer :hover {
     color: white;
+}
 
-}
-@media screen and (max-width: 500px) {
-  .footer {
-    width: 400px;
-  }
-}
 .contact-email{
     max-width: 400px;
     background-color:rgb(185, 227, 198, 0.7);
@@ -416,7 +439,7 @@ top: 15%;
 main{
     background: var(--primary-dark);
     background-size: cover;
-    height: 65vw;
+    height: 80vw;
 }
 p a{
     color:var(--primary-light);
@@ -426,7 +449,3 @@ p{
     font-size: 18px;
     font-family: 'Mate';
 }
-
-
-
-
