@@ -1,14 +1,3 @@
-//let toggleButton = document.querySelector('#toggle-button');
-
-//let body = document.querySelector('body');
-//toggleButton.addEventListener('click', function() {
- // body.classList.toggle('lights-out');
-//});///
-
-
-
-
-
 new Typewriter('#badge-name', {
   strings: ('you can call me <strong>Nic</strong>'),
   autoStart: true,
@@ -37,3 +26,4 @@ new Typewriter('#badge-name', {
 
 
         }
+ 
