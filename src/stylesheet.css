@@ -57,10 +57,11 @@
 .container{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
     background-repeat:no-repeat;
-    background-position: cover cover;
+    background-position: center cover;
 
-
-
+}
+#nav-cont, .navbar{
+    background: #272932;
 }
 
 .nav-link{
@@ -289,9 +290,10 @@
     justify-content: space-evenly;
 }
 .something-great{
-    max-width: 460px;
+    max-width: auto;
     border-radius: 30px;
     text-align: center;
+    margin:20px;
 }
 .footer{
     text-align: center;
@@ -463,11 +465,7 @@ top: 15%;
  }
 /* tablet*/
 @media only screen and (max-width: 768px) {
-    .navbar{
-        margin-left: 1.5em;
-        margin-right: 1.5em;
 
-    }
     .container{
          background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
         background-size: cover;
