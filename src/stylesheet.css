@@ -122,7 +122,7 @@
    border-radius: 40px;
    justify-content:center;
    align-content: center;
-   padding:20px;
+   padding:25px;
    text-align: center;
      transform: rotate(-90deg);
      font-family: "Fredericka the Great", serif;
@@ -290,10 +290,9 @@
     justify-content: space-evenly;
 }
 .something-great{
-    max-width: auto;
+    max-width: 600px;
     border-radius: 30px;
     text-align: center;
-    margin:20px;
 }
 .footer{
     text-align: center;
@@ -498,7 +497,7 @@ top: 15%;
 
     margin-bottom: 20px;
 }
-.col-sm{
+.col-sm-0{
     display: none;
 }
 .tools{
@@ -519,7 +518,7 @@ top: 15%;
 
 }
 /*larger screen */
-@media (min-width:1200px){
+@media (min-width:992px){
     .navbar{
         justify-content: center;
     }
@@ -528,30 +527,26 @@ top: 15%;
     }
     .container{
          background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
-        background: cover;
+        background:  cover;
         background-size: 400vh;
         justify-content: center;
     }
     #about-me{
     display:block;
-    position: absolute;
-     top:30em;
+    position: relative;
      color: white;
      text-align: center;
     }
 .move{
-    text-wrap:balance;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    height: 250px;
-    width:260px;
-    margin-left:5em;
+    text-wrap:wrap;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    height: auto;
 }
 .carousel{
     display:flex;
     justify-content:space-evenly;
     align-content: center;
-    margin-top: 5em;
 }
 .wordCarousel{
     padding: 10px;
@@ -565,6 +560,7 @@ top: 15%;
     margin-top: 5em;
 }
 .about-content{
+    text-align: center;
     font-weight: 500;
     font-size: 18px;
     text-wrap:balance;
