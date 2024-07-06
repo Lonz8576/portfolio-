@@ -571,6 +571,9 @@ top: 15%;
 .grid{
     justify-content: space-evenly;
 }
+.something-great{
+    max-width: 800px;
+}
 
 }
 
