@@ -463,6 +463,9 @@ top: 15%;
         display: block;
         width:85%;
     }
+    main{
+        background-size: 100vh;
+    }
 
 }
 /* tablet*/
@@ -497,7 +500,6 @@ top: 15%;
 }
 .about-img{
     display:flex;
-
     margin-bottom: 20px;
 }
 .col-sm-0{
@@ -582,14 +584,25 @@ top: 15%;
     text-decoration: underline;
     text-underline-offset: 1rem;
     font-family: 'Old Standard TT';
-    padding: 2.5rem;
-    margin-bottom: 1em;
+    margin-top:-20px;
     color: var(--primary-light);
 }
 main{
     background: var(--primary-dark);
-    background-size: cover;
+    align-content: center;
     height: 80vw;
+
+
+}
+.footer-projects {
+    color:var(--primary-light);
+    text-align: center;
+    font-size: 14px;
+}
+.footer-projects a{
+    color:#3b94a4;
+    font-weight: 500;
+    text-decoration: none;
 }
 p a{
     color:var(--primary-light);
