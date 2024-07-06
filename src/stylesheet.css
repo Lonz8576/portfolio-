@@ -534,14 +534,14 @@ top: 15%;
     position: relative;
      color: white;
      text-align: center;
-     top:-15px
+     height: 150px;
+     top: 30px;
     }
 .move{
     text-wrap:wrap;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     height: auto;
-
 }
 .carousel{
     display:flex;
