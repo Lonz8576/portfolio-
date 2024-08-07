@@ -2,57 +2,6 @@
     --primary-dark:  #272932;
     --primary-light:  #b9e3c6;
 }
-/*
-@media only screen and (max-width: 600px){
-    .footer{
-    position: relative;
-    top:1.5em;
-}
-.footer-back{
-    display: contents;
-    position: relative;
-}
-.footer-index{
-    padding-bottom: 2em;
-}
-#about-me{
-    display: none;
-}
-.carousel{
-    display:contents;
-    justify-content: center;
-    margin: 0 auto;
-}
-.wordCarousel{
-    padding: 10px;
-    align-content: center;
-    text-align: center;
-    width:75%;
-    position: relative;
-    right:1.5em;
-}
-.about-content{
-    font-weight: 500;
-    font-size: 18px;
-    text-wrap:balance;
-}
-.about-img{
-    display:flex;
-    width:75%;
-    margin-bottom: 20px;
-}
-.tools{
-    text-align: center;
-}
-
-}
-*/
-
-
-
-/*    tablet */
-
-
 
 .container{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/001/original/tiles.jpg?1717266459");
@@ -456,6 +405,7 @@ cursor: pointer;
 {
 top: 15%;
 }
+
 /*small screens*/
 @media (max-width: 575.98px) {
     .badge{
@@ -466,7 +416,7 @@ top: 15%;
     main{
         background-size: 100vh;
     }
-
+  
 }
 /* tablet*/
 @media only screen and (max-width: 768px) {
@@ -515,6 +465,10 @@ top: 15%;
     padding-bottom: 1em;
 
 }
+.pdf-resume{
+    width: 760px;    
+}
+
 }
 
 /*larger screen */
