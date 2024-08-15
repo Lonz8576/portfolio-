@@ -534,10 +534,10 @@ top: 15%;
 /* Projects */
 .project-header{
     text-align: center;
+    padding-bottom: 20px;
     text-decoration: underline;
     text-underline-offset: 1rem;
     font-family: 'Old Standard TT';
-    margin-top:-20px;
     color: var(--primary-light);
 }
 main{
@@ -545,10 +545,15 @@ main{
     align-content: center;
     height: 80vw;
 }
+.card-body{
+    background: #1b1c1f;
+    color: whitesmoke;
+}
 .footer-projects {
     color:var(--primary-light);
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    padding-top: 20px;
 }
 .footer-projects a{
     color:#3b94a4;
@@ -560,7 +565,9 @@ p {
     font-size: 18px;
     font-family: 'Mate';
 }
-p a{
+ .live-preview a{
     color:var(--primary-light);
+    text-decoration: none;
+    font-size: 24px;
 }
 
